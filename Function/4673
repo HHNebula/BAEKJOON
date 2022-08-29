@@ -5,7 +5,7 @@ public class Main { // 셀프넘버
 
 		boolean[] check = new boolean[10001];
 		// 10000보다 작거나 같으므로 10001 배열 생성
-		// 1 ~ 10000 까지 검사한 뒤, 해달 수를 생성자로 하는 수가 있으면 제외
+		// 1 ~ 10000 까지 검사한 뒤, 해당 수를 생성자로 하는 수가 있으면 제외
 
 		for (int i = 1; i < 10001; i++) { // 1부터 10000까지 검사
 			int n = d(i); // i를 생성자로 하는 수를 n에 저장
@@ -15,7 +15,7 @@ public class Main { // 셀프넘버
 			}
 		}
 
-		// boolean 배열에서 false인 경우 해당 인겍스는 셀프 넘버임
+		// boolean 배열에서 false인 경우 해당 인덱스는 셀프 넘버임
 		for (int i = 1; i < check.length; i++) {
 			if (!check[i]) { // 데이터가 false 이면
 				System.out.println(i); // 해당 위치 인덱스 출력
