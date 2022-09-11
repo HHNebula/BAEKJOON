@@ -13,7 +13,7 @@ public class Main {
 		int down = Integer.parseInt(st.nextToken()); // 미끄러지는 길이
 		int length = Integer.parseInt(st.nextToken()); // 목표 길이
 
-		// 속도 제항으로 반복문을 쓰지 않고 단순 계산으로 풀이
+		// 속도 제항으로 반복문을 쓰지 않고 단순 계산으로 풀이함
 
 		// up - down = 하루에 올라가는 거리
 		// 길이 / 하루에 올라가는 거리 = 소요 일
