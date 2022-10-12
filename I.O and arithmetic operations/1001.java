@@ -5,22 +5,23 @@
 
 import java.util.*;
 
-public class Main{
-  
-	public static void main(String args[]){
-    
-    // 입력
-    // 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
+public class Main {
 
-		Scanner sc = new Scanner(System.in);
-		int a, b;
-		a = sc.nextInt();
-		b = sc.nextInt();
+    public static void main(String args[]) {
 
-    // 출력
-    // 첫째 줄에 A-B를 출력한다.
+        // 입력
+        // 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
 
-    System.out.println(a - b);
-	}
-  
+        Scanner sc = new Scanner(System.in);
+        int a, b;
+        a = sc.nextInt();
+        b = sc.nextInt();
+
+        // 출력
+        // 첫째 줄에 A-B를 출력한다.
+
+        System.out.println(a - b);
+	    
+    }
+
 }
