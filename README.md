@@ -3,6 +3,7 @@
 백준의 코딩 테스트 문제를 풀이한 Repo 입니다.  
 각 파일의 이름은 문제 번호를 뜻합니다.  
 폴더는 단계별로 풀어보기와 같은 주제로 정리하였습니다.  
+단계별로 풀어보기 카테고리에 있지 않은 문제는 etc 폴더에 작성하였습니다.
 
 https://www.acmicpc.net/step
 
@@ -16,4 +17,4 @@ https://www.acmicpc.net/step
 - [문자열 - 완료](https://github.com/HHNebula/BAEKJOON/tree/main/String)
 - [기본 수학 1 - 완료](https://github.com/HHNebula/BAEKJOON/tree/main/Basic%20Mathematics%201)
 - [기본 수학 2 - 완료](https://github.com/HHNebula/BAEKJOON/tree/main/Basic%20Mathematics%202)
-- [정렬 - 도전중](https://github.com/HHNebula/BAEKJOON/tree/main/Sort)
+- [정렬 - 완료](https://github.com/HHNebula/BAEKJOON/tree/main/Sort)
