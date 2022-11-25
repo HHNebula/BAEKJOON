@@ -34,8 +34,8 @@ public class Main {
 //		출력
 //		첫째 줄에 지민이가 다시 칠해야 하는 정사각형 개수의 최솟값을 출력한다.
 
-		// 다시 칠할 횟수
-		int paintNum = 64;
+		// 다시 칠할 횟수 최대값
+		int paintNum = 32;
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
