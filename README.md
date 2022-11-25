@@ -1,13 +1,13 @@
 # BEAEKJOON repo.
 
-백준의 코딩 테스트 문제를 풀이한 Repo 입니다.  
-각 파일의 이름은 문제 번호를 뜻합니다.  
-폴더는 단계별로 풀어보기와 같은 주제로 정리하였습니다.  
-단계별로 풀어보기 카테고리에 있지 않은 문제는 etc 폴더에 작성하였습니다.
+## Description
+- [백준](https://www.acmicpc.net/step)
+- 폴더는 각 단계로 구성
+- 파일명의 숫자는 문제 번호를 뜻함
+- class를 올리기 위해 도전중인 단계보다 먼저 푼 문제도 있음  
+이 경우 etc 폴더에 업로드
 
-https://www.acmicpc.net/step
-
-### Category
+## Category
 - [입출력과 사칙연산 - 완료](https://github.com/HHNebula/BAEKJOON/tree/main/I.O%20and%20arithmetic%20operations)
 - [조건문 - 완료](https://github.com/HHNebula/BAEKJOON/tree/main/Conditional)
 - [반복문 - 완료](https://github.com/HHNebula/BAEKJOON/tree/main/Loop)
