@@ -1,7 +1,7 @@
 # BEAEKJOON repo.
 
 ## Description
-- [백준](https://www.acmicpc.net/step)
+- [백준](https://www.acmicpc.net/step) 문제 풀이 저장소
 - 폴더는 각 단계로 구성
 - 파일명의 숫자는 문제 번호를 뜻함
 - class를 올리기 위해 도전중인 단계보다 먼저 푼 문제도 있음  
