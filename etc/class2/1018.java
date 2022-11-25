@@ -39,15 +39,14 @@ public class Main {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		int width = Integer.parseInt(st.nextToken());
 		int hight = Integer.parseInt(st.nextToken());
-
-		boolean[][] chessBoard = new boolean[width][hight];
+		int width = Integer.parseInt(st.nextToken());
+		boolean[][] chessBoard = new boolean[hight][width];
 
 		// 보드의 색상 입력
-		for (int i = 0; i < width; i++) {
+		for (int i = 0; i < hight; i++) {
 			String str = br.readLine();
-			for (int j = 0; j < hight; j++) {
+			for (int j = 0; j < width; j++) {
 				if (str.charAt(j) == 'W') {
 					chessBoard[i][j] = true; // 하얀색이면 true로 저장
 				} else {
@@ -55,23 +54,11 @@ public class Main {
 				}
 			}
 		}
-		
-		// 입력부 검사
-//		for (int i = 0; i < width; i++) {
-//			for (int j = 0; j < hight; j++) {
-//				if (chessBoard[i][j]) {
-//					System.out.print("W");
-//				} else {
-//					System.out.print("B");
-//				}
-//			}
-//			System.out.println();
-//		}
 
 		// 검사
 		// 8x8 이므로 -7을 하여 시작 범위를 지정함
-		for (int row = 0; row < width - 7; row++) {
-			for (int col = 0; col < hight - 7; col++) {
+		for (int row = 0; row < hight - 7; row++) {
+			for (int col = 0; col < width - 7; col++) {
 
 				// 시작 지점에서 +7 하여 검사할 범위를 지정함
 				int rowEnd = row + 7;
@@ -86,8 +73,8 @@ public class Main {
 				// 검사 시작 지점과 종료 지점까지 반복
 				for (int i = row; i <= rowEnd; i++) {
 					for (int j = col; j <= colEnd; j++) {
-						
-						// 두 칸의 색이 다른지 검사
+
+						// 칸의 색이 규칙과 다른지 검사
 						if (color != chessBoard[i][j]) {
 							count++;
 						}
@@ -98,13 +85,16 @@ public class Main {
 					// 다음 줄의 첫 칸은 이전 줄의 마지막 칸과 같아야 하므로
 					color = !color;
 				}
-				// 검사 결과를 비교하여 저 작은 횟수를 저장
-				if (count < paintNum) paintNum = count;
+				// 검사 결과를 비교하여 더 작은 횟수를 저장
+				int result = (count < 64 - count) ? count : 64 - count;
+				if (paintNum > result) {
+					paintNum = result;
+				}
 			}
 		}
-		
+
 		System.out.println(paintNum);
-		
+
 		br.close();
 
 	}
