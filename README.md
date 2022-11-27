@@ -4,8 +4,7 @@
 - [백준](https://www.acmicpc.net/step) 문제 풀이 저장소
 - 폴더는 각 단계로 구성
 - 파일명의 숫자는 문제 번호를 뜻함
-- class를 올리기 위해 도전중인 단계보다 먼저 푼 문제도 있음  
-이 경우 etc 폴더에 업로드
+- etc 폴더에는 도전중인 단계 외 문제를 저장
 
 ## Category
 - [입출력과 사칙연산 - 완료](https://github.com/HHNebula/BAEKJOON/tree/main/I.O%20and%20arithmetic%20operations)
